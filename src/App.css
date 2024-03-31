@@ -1,0 +1,141 @@
+.login-area {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.login-text {
+  font-family: 'PyeongChangPeace-Bold';
+  margin: 10px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: #2E2E2E;
+}
+
+.login-area-input {
+  font-size: 30px;
+  font-family: 'Pretendard-Regular';
+  background-color: transparent;
+  color: #2E2E2E;
+  border: none;
+  border-bottom: 2px solid #2E2E2E;
+  outline: none;
+}
+
+.login-area-input :focus {
+  outline: none;
+}
+
+.login-button {
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  vertical-align: text-bottom;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+.login-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.text-area {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-step {
+  font-family: 'DungGeunMo';
+  font-size: 30px;
+}
+
+.text-area-input {
+  background-color: transparent;
+  width: 80px;
+  height: 30px;
+  font-size: 30px;
+  color: #FAFAFA;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #FAFAFA;
+  font-family: 'DungGeunMo';
+  outline: none;
+}
+
+.text-area-input :focus {
+  outline: none;
+}
+
+.welcome {
+  font-family: 'Ownglyph_meetme-Rg';
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+
+.count {
+  font-family: 'DungGeunMo';
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.button img {
+  width: 100px;
+  height: 100px;
+}
+
+
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ownglyph_meetme-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
